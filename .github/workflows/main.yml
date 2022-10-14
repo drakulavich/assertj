@@ -1,6 +1,6 @@
 name: CI
 
-on: [pull_request, push]
+on: [push, pull_request]
 
 concurrency:
   # Cancel concurrently-running workflow for push and pull_request events
